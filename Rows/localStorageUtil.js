@@ -1,0 +1,4 @@
+lass LocalStorageUtil{
+
+	constructor
+}

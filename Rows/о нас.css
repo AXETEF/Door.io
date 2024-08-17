@@ -1,0 +1,169 @@
+.all{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 110px;
+}
+.tac {
+	width: 1060px;
+
+}
+.imga1 {
+	margin-top: 70px;
+}
+
+.imgin {
+	width: 1060px;
+	height: 540px;
+	gap: 0px;
+	opacity: 0px;
+
+}
+.tx {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.text1 {
+
+
+}
+.one {
+    font-family: "Mulish", sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: -0.01em;
+	text-align: left;
+	margin-top: 70px;
+	margin-bottom: 35px;
+
+
+}
+.textin1 {
+    font-family: "Mulish", sans-serif;
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 30.8px;
+	text-align: left;
+	margin-bottom: 33px;
+}
+.textin2 {
+    font-family: "Mulish", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20.8px;
+	text-align: left;
+	margin-bottom: 23px;
+
+}
+.text2 {}
+.two {
+    font-family: "Mulish", sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 43.2px;
+	letter-spacing: -0.02em;
+	text-align: left;
+	margin-top: 70px;
+	margin-bottom: 25px;
+}
+.text3 {}
+.three {
+    font-family: "Mulish", sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 25px;
+	letter-spacing: -0.02em;
+	text-align: left;
+	margin-bottom: 25px;	margin-top: 70px;
+
+}
+.dostavkatext {
+ margin-left: 20px;
+}
+.dosthree {}
+.four {
+    font-family: "Mulish", sans-serif;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 23.1px;
+	letter-spacing: 0.01em;
+	text-align: left;
+	margin-top: 70px;
+	margin-bottom: 25px;
+}
+.files {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+
+}
+
+.bezopasnost {
+	background: #F3F0EE;
+	width: 480px;
+	height: 96px;
+	gap: 0px;
+	opacity: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 30px;
+    font-family: "Mulish", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: black;
+}
+.imga2 {
+	display: flex;
+}
+.imgcirk {}
+.nastya {
+    font-family: "Mulish", sans-serif;
+    font-size: 21px;
+	font-weight: 700;
+	line-height: 23.1px;
+	letter-spacing: 0.01em;
+	text-align: left;
+	margin-left: 18px;
+
+}
+.nastyasia{
+	position: relative;
+	width: 1060px;
+	height: 420px;
+	gap: 0px;
+	opacity: 0px;
+	gap: 0px;
+	opacity: 0px;
+	border: 1px solid ;
+	padding:50px;
+	border:1px solid #B1B0AF;
+	margin-bottom: 70px;
+	margin-top: 70px;
+
+}
+.twon{
+    font-family: "Mulish", sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 43.2px;
+	letter-spacing: -0.02em;
+	text-align: left;
+	margin-bottom: 50px;
+	color: #B14101;
+
+}
+.dovn{
+	font-family: "Mulish", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20.3px;
+	text-align: left;
+	color: #B1B0AF;
+}
+.ka{
+	color:#B14101 ;
+}
+.zuzu{
+
+}

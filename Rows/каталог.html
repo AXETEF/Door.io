@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="каталог.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+	<style>li {list-style-type: none;  margin: 18px 0;}</style>
+	<link rel="icon" href="img/free-icon-door-252749.png">
+	<title>Каталог</title>
+</head>
+<body>
+	<div class="menu">
+			<img src="img\logo.png" alt="" class="logo">
+			<div class="head">
+				<a href="доставка.html" class="dost d1">Доставка</a>
+				<a href="статьи.html" class="dost">Статьи</a>
+				<a href="о нас.html" class="dost">О нас</a>
+				<a href="контакты.html" class="dost d2">Контакты</a>
+			</div>
+			<div class="mail">
+				<a href="support@sofiadoors.com" class="num num1">support@sofiadoors.com</a>
+				<a href="8 (800) 550-81-79" class="num">8 (800) 550-81-79</a>
+				<div class="katalog">
+					<a href="каталог.html" class="katal">Каталог</a>
+				</div>
+			</div>
+		</div>
+	<div>
+
+
+
+
+
+
+	<div class="glavnaya">
+		<a href="..\index.html" class="glava">Главная</a>
+		-
+		<a href="каталог.html" class="glava">Каталог</a>
+		-
+		<a href="о нас.html" class="glava">О нас</a>
+	</div>
+	<div class="dostav">Каталог</div>
+
+
+
+
+	<div class="all">
+		<div class="spisok">
+				<div data-tab-content id="tab-1">
+					<div class="controll">
+						<div class="outt">
+								<div class="knobssss">
+									<button class="onek" data-tab="tab-1">Межкомнатные двери</button><br>
+									<button class="onek" data-tab="tab-2">Мебель</button><br>
+									<button class="onek" data-tab="tab-3">Стеновые панели «Буазери»</button><br>
+									<button class="onek" data-tab="tab-4">Лестницы</button><br>
+									<button class="onek" data-tab="tab-5">Мебельные фасады</button><br>
+								</div>
+								<div class="spap" id="filters">
+									<div class="price"><h2>Ценовной диапазон</h2><br>
+									    <div class="price-input">
+									      <input class="input-text" type="text" value="0" id="price-min">&nbsp;-&nbsp;
+									      <input class="input-text" type="text" value="150000" id="price-max">
+									    </div>
+									</div>
+									<div class="color">
+								    	<div class="slider">
+								    		<div class="progress"></div>
+								    	</div>
+									    <div class="range-input">
+									   		<input type="range" class="range-min" min="0" max="140000" value="0" step="1000">
+									    	<input type="range" class="range-max" min="0" max="150000" value="150000" step="1000">
+									    </div>
+								    </div>
+									<div class="type">
+										<h2 class="list-group-item list-header" data-name="accordeon-title"><span class="nazva">Тип дверей</span><span class="strelka">⮟</span></h2>
+									    <div class="list-group-item list-content dis" id="typen">
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="Mj">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Межкомнатные</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="Skr">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Скрытые</div>
+										</label><br>
+									    </div>
+									</div>
+									<div class="type"><h2 class="list-group-item list-header" data-name="accordeon-title"><span class="nazva">Стиль</span><span class="strelka">⮟</span></h2>
+									    <div class="list-group-item list-content dis" id="stylen">
+									      <label class="checkbox style-g" ><input type="checkbox" class="btn" value="Skand">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Скандинавский</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="Vint">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Винтаж</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="Sovr">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Современный</div>
+										</label><br>
+									    </div>
+									</div>
+									<div class="type"><h2 class="list-group-item list-header" data-name="accordeon-title"><span class="nazva">Материал</span><span class="strelka">⮟</span></h2>
+									    <div class="list-group-item list-content dis" id="mathn">
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="emal">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Эмаль</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="monokort">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Монохромный Кортекс</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="selk">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Шёлк</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="kort">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Кортекс</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="shpon">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Шпон</div>
+										</label><br>
+									    </div>
+									</div>
+									<div class="type"><h2 class="list-group-item list-header" data-name="accordeon-title"><span class="nazva">Покрытие</span><span class="strelka">⮟</span></h2>
+									    <div class="list-group-item list-content dis" id="pokrythn">
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="mat">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Матовые</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="glan">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Глянцевые</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="pokr">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Под покраску</div>
+										</label><br>
+									    </div>
+									</div>
+									<div class="type"><h2 class="list-group-item list-header" data-name="accordeon-title"><span class="nazva">Тип конструкции</span><span class="strelka">⮟</span></h2>
+									    <div class="list-group-item list-content dis" id="typeConstrn">
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="ram">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Рамочные</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="file">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Филёнчатые</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="shit">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Щитовые</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="ostek">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Остеклённые</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="gluh">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Глухие</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="aroch">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Арочные</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="radi">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Радиусные</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="avtomat">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Автоматические</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="protivo">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Противовзломные</div>
+										</label><br>
+									    </div>
+									</div>
+									<div class="type"><h2 class="list-group-item list-header" data-name="accordeon-title"><span class="nazva">Облицовка</span><span class="strelka">⮟</span></h2>
+										    <div class="list-group-item list-content dis" id="oblychn">
+										      <label class="checkbox style-g"><input type="checkbox" class="btn" value="van">
+										      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Ваниль</div>
+											</label><br>
+										      <label class="checkbox style-g"><input type="checkbox" class="btn" value="bekl">
+										      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Белый Клен</div>
+											</label><br>
+										      <label class="checkbox style-g"><input type="checkbox" class="btn" value="topo">
+										      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Тополь</div>
+											</label><br>
+										    </div>
+									</div>
+								</div>
+						</div>
+						<div id="products">
+									   	 <div class="modal-window">
+									    	    <div class="card">
+									        	    <div class="card-header">Модальное окно №1</div>
+									              	      <div class="card-body">
+									                  		  	<p class="odin">
+																	Оставьте свой номер телефона! Мы свяжемся с Вами по поводу товара в течение 15 минут.
+									                 	       </p>
+									                	        <p>
+																	Оставьте свой номер телефона! Мы свяжемся с Вами по поводу товара в течение 15 минут.
+									                	        </p>
+									                	        <div class="voprosyforma">
+																	<div class="polevvoda">
+																		<input placeholder="Как вас зовут?" class="kakvas" type="text">&nbsp&nbsp&nbsp&nbsp&nbsp<input placeholder="Ваш телефон" class="kakvas" type="tel">
+																	</div>
+																<div>
+																	<button data-modal-close type="button"  class="otpravkaformy">СВЯЗАТЬСЯ С НАМИ</button>
+																</div>
+															</div>
+									            		</div>
+									        </div>
+									    </div>
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+
+
+
+
+				<div class="dis" data-tab-content id="tab-2">
+					<div class="controll">
+						<div class="outt">
+
+								<div class="knobssss">
+									<button class="onek" data-tab="tab-1">Межкомнатные двери</button><br>
+									<button class="onek" data-tab="tab-2">Мебель</button><br>
+									<button class="onek" data-tab="tab-3">Стеновые панели «Буазери»</button><br>
+									<button class="onek" data-tab="tab-4">Лестницы</button><br>
+									<button class="onek" data-tab="tab-5">Мебельные фасады</button><br>
+								</div>
+								<div class="spap" id="filtersM">
+									<div class="price"><h2>Ценовной диапазон</h2><br>
+									    <div class="price-input">
+									      <input class="input-text" type="number" value="0" id="price-minn">&nbsp;-&nbsp;
+									      <input class="input-text" type="number" value="150000" id="price-maxn">
+									    </div>
+									</div>
+									<div class="color">
+								    	<div class="slider">
+								    		<div class="progress"></div>
+								    	</div>
+									    <div class="range-input">
+									   		<input type="range" class="range-min" min="0" max="140000" value="0" step="1000">
+									    	<input type="range" class="range-max" min="0" max="150000" value="150000" step="1000">
+									    </div>
+								    </div>
+									<div class="type" ><h2 class="list-group-item list-header" data-name="accordeon-title"><span class="nazva">Тип мебели</span><span class="strelka">⮟</span></h2>
+									    <div class="list-group-item list-content dis" id="typem">
+
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="dick">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Диваны и кресла</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="krim">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Кровати и матрасы</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="schis">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Шкафы и стеллажи</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="kit">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Комоды и тумбы</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="sis">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Столы и стулья</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="kot">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Ковры и текстиль</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="osv">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Освещение</div>
+										</label><br>
+									    </div>
+									</div>
+									<div class="type"><h2 class="list-group-item list-header" data-name="accordeon-title"><span class="nazva">Стиль</span><span class="strelka">⮟</span></h2>
+									    <div class="list-group-item list-content dis" id="stylem">
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="Skand">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Скандинавский</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="Vint">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Винтаж</div>
+										</label><br>
+									      <label class="checkbox style-g"><input type="checkbox" class="btn" value="Sovr">
+									      	<div class="checkbox__checkmark"></div>
+											<div class="checkbox__body">Современный</div>
+										</label><br>
+									    </div>
+									</div>
+
+								</div>
+						</div>
+						<div id="productsM"></div>
+
+					</div>
+				</div>
+		</div>
+	</div>
+
+
+
+	<div class="linn">
+		<div class="linny"></div>
+	</div>
+
+
+	<div class="zakazaka">
+		<div class="nazakaz">
+			<div class="zagolnazak">
+				Двери на заказ
+			</div>
+			<br><br><br>
+			<div class="textnazak">
+				Двери, представляющие из себя вертикальный прямоугольник, которые стоят в большинстве
+				построенных квартир, представляют собой стандартный образец. Любые другие, отличающиеся
+				по форме и размерам, считаются нестандартными и изготавливаются по заказу. Наша компания
+				предлагает услугу изготовления межкомнатных дверей на заказ с доставкой в Москве и Московской
+				области. Для того чтобы определиться с заказом, необходимо чётко представлять возможности
+				изготовления дверей. <br><br>Изготавливаются они следующим образом: создаётся каркас из недорогой
+				древесины, который затем обшивается панелями МДФ. Панели ламинируются плёнкой любых оттенков.
+				Шпонированные варианты представляют собой целостный натуральный массив из дерева, покрытый
+				шпоном из МДФ. Классические массивные и глухие модели, и лёгкие модели со стеклом, могут
+				быть изготовлены из натурального дерева. <br><br>Если Вам необходима модель с эксклюзивным дизайном,
+				можно сделать её по специальному проекту. Независимо тот того, в какой ценовой категории будут
+				находиться выбранные вами изделия, все они выполнены из качественного материала, надёжны и
+				безопасны.
+			</div>
+		</div>
+	</div>
+
+
+
+
+<form action="#" method="get">
+	<div class="pomoschContflex">
+		<div class="pomaschCont">
+			<div class="iemgi">
+				<img src="img/Forma.png" class="iemgipomosch">
+			</div>
+			<div class="formaright">
+				<div class="zagolforma">Нужна помощь с выбором?</div>
+				<div class="textforma">Наши специалисты с радостью помогут <br> Вам, оставьте свой номер телефона!</div>
+				<div class="voprosyforma">
+					<div class="polevvoda">
+						<input placeholder="Как вас зовут?" class="kakvas" type="text">&nbsp&nbsp&nbsp&nbsp&nbsp<input placeholder="Ваш телефон" class="kakvas" type="tel"><br><br>
+						<button type="submit" class="otpravkaformy">СВЯЗАТЬСЯ С НАМИ</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</form>
+
+
+
+
+
+
+			<button class="modKnobb" id="open">ЗАКАЗАТЬ</button>
+			    <dialog>
+				    <div class="modCont">
+				    		<div class="modZagolovok">
+				       			Заказ товара
+						    </div>
+						    <div class="modText">Оставьте свой номер телефона! Мы свяжемся с Вами по поводу товара в течение 15 минут.</div>
+						    <form class="modForm">
+						    	<input placeholder="Как вас зовут?" class="kakvas twowen" type="text"><br>
+						    	<input placeholder="Ваш телефон" class="kakvas twowen" type="tel"><br>
+						    	<button type="submit" class="otpravkaformy twowen">ЗАКАЗАТЬ ЗВОНОК</button>
+						    </form>
+						    <div>
+						   			<button class="zakriMod" id="close">&#x2715;</button>
+						  	</div>
+				  	</div>
+			    </dialog>
+
+
+
+
+
+
+
+	<div class="bottom">
+		<div class="bot1">
+		<img src="img\logo.png"class="logo2">
+			<div class="col">
+				Фабрика G&G. 2022 <br> <br>© Все права защищены
+			</div>
+		</div>
+		<div class="bot2">
+			<div class="nomber">8 (800) 550-81-79</div>
+			<div class="col">м. Полежаевская<br> <br>123154, г. Москва, пр-т. Маршала <br> Жукова, д. 52, "Мебельный Центр"
+			</div>
+			<br>
+			<a href="support@sofiadoors.com" class="col">support@sofiadoors.com</a>
+		</div>
+		<div class="bot3">
+			<li><a href="каталог.html" class="col">Межкомнатные двери</a></li>
+			<li><a href="каталог.html" class="col">Мебель</a></li>
+			<li><a href="каталог.html" class="col">Стеновые панели «Буазери»</a></li>
+			<li><a href="каталог.html" class="col">Лестницы</a></li>
+			<li><a href="каталог.html" class="col">Мебельные фасады</a></li>
+		</div>
+		<div class="bot4">
+			<li><a href="доставка.html" class="col">Доставка</a></li>
+			<li><a href="статьи.html" class="col">Статьи</a></li>
+			<li><a href="о нас.html" class="col">О нас</a></li>
+			<li>⠀</li>
+			<li><a href="" class="col">Политика конфиденциальности</a></li>
+			<img src="img/Soc.png" class="soc">
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="KATALOG.json"></script>
+	<link rel="stylesheet" href="KATALOG/KATALOG.css">
+	<script src="ROOT.js"></script>
+	<script src="localStorageUtil.js"></script>
+	<script src="PRODUCTS/PRODUCTS.js"></script>
+	<script src="PRODUCTS/PRODUCTSM.js"></script>
+	<link rel="stylesheet" href="PRODUCTS/PRODUCTS.css">
+	<script src="index.js"></script>
+	<script src="FILTER/filter.js"></script>
+	<script src="FILTER/FILT.js"></script>
+	<script src="FILTER/FILTM.js"></script>
+	<script src="FILTER/range.js"></script>
+	<script src="FILTER/accord.js"></script>
+	<script src="modal.js"></script>
+
+</body>
+</html>
